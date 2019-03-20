@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  /* overflow: hidden; */
+  height: 64px;
+}
+.navbar-wrapper {
+  position: relative;
+  left: 0;
+  top: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #aaa;
+  transform-origin: top left;
+  transform: rotate(-90deg);
+}
